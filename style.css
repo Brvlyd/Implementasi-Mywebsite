@@ -1,0 +1,52 @@
+/* Width, Height, Margin, Padding, Border */
+
+/* Display: Inline, Block, Inline-Block */
+
+/* 
+Block = 
+1. Width otomatis 100% dari parentnya, kalo tidak diberikan secara langsung properti width 
+2. Bisa atur property width dan height
+3. Bisa atur margin
+Contoh tag = div
+
+Inline =
+1. Width menyesuaikan isi konten
+2. Tidak bisa atur width dan height
+3. Memaksa tag menjadi 1 baris
+
+Inline-Block =
+1. Memaksa tag menjadi 1 baris
+2. sama sepeerti inline, akan tetapi bisa diatur margin width dan height
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.box {
+    display: inline-block;
+    /* width: 80px;
+    height: 80px; */
+    background-color: red;
+    /* margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px; */
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.container {
+    width: 50%;
+    border: 5px solid blue;
+    margin-top: 10%;
+}
+
+.tulisan {
+    background-color: pink; 
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
